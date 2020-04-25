@@ -1,19 +1,19 @@
 # Site settings
-title: Hector ’s Blog
-SEOTitle: Hector.Z的博客 | Hector.Z Blog
+title: ANote
+SEOTitle: ANote | ANote
 header-img: img/home-bg.jpg
-email: 418918345@qq.com
+email: boiior@outlook.com
 description: "May Your Heart Be The Map"
 keyword: ""
-url: "https://hectoor.github.io/"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://luojiecn.github.io/"              # your host, for absolute URL
+baseurl: ""              # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
 # weibo_username:   
-github_username:    Hectoor  
+github_username:    luojiecn  
 #zhihu_username:     
 #twitter_username:  
 #facebook_username:  
@@ -43,7 +43,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: Bebop.C
+duoshuo_username: luojiecn
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
@@ -55,8 +55,8 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一定会更疯狂。"
-sidebar-avatar: /img/hector.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Linux is good。"
+sidebar-avatar: /img/linux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -69,19 +69,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Bebop.C Blog",
+        title: "Windows",
         href: "#"
     },{
-        title: "Spike Spiegel",
-        href: "#"
-    },{
-        title: "Jet Black",
-        href: "#"
-    },{
-        title: "Faye Valentine",
-        href: "#"
-    },{
-        title: "Ein",
+        title: "MacOS",
         href: "#"
     }
 ]
