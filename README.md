@@ -1,2 +1,1 @@
-# boiior.github.io
-my pages
+## Thanks
