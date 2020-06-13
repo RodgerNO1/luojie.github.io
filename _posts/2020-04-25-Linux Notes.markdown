@@ -2,8 +2,7 @@
 layout: post
 title:  "Linux Note"
 date:   2020-04-25 22:00:00
-author:     "boiiorluo"
-categories: Javascript NodeJS
+categories: Linux bash
 ---
 
 ## 查看端口占用
@@ -33,9 +32,14 @@ lsof -i tcp:22
 ```
 ## Ubuntu下怎么通过命令完成蓝牙的配对和连接
 ```shell
-# last 
-
+打开蓝牙管理器
+# bluetoothctl
+打开扫描
+# scan on
+搜索到设备后关闭扫描
+# scan off 
+# pair XX:XX:XX:XX:XX:XX:XX:XX
+# connect XX:XX:XX:XX:XX:XX:XX:XX
 ```
-参考链接 [蓝牙的配对和连接][link1]
-[link1]: https://blog.csdn.net/zhuyong006/article/details/89926521
+参考链接 [蓝牙的配对和连接](https://blog.csdn.net/zhuyong006/article/details/89926521)
 

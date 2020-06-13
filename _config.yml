@@ -1,6 +1,6 @@
 title: Anote
-author: Boiiorluo
-email: boiiorluo@gmail.com
+author: Luojiecn
+email: boiior@outlook.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Learning Note
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -11,7 +11,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: boiiorluo
-  tagline: Developer. Designer
+  tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
