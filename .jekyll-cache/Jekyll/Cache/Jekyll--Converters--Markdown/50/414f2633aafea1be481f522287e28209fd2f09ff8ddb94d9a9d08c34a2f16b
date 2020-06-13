@@ -1,0 +1,23 @@
+I"G<h2 id="查看端口占用">查看端口占用</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>使用 netstat 查看
+# netstat -tnlp | grep :1080
+ss 一般用于转储套接字统计信息
+# ss -lntpd | grep :22
+lsof(list open files)是一个列出系统上被进程打开的文件的相关信息。
+lsof -i tcp:22
+</code></pre></div></div>
+<h2 id="tmux命令">Tmux命令</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>列出session
+# tmux ls
+进入已存在的session
+# tmux a -t $session_name
+
+</code></pre></div></div>
+<h2 id="查用户登入历史">查用户登入历史</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># last 
+
+</code></pre></div></div>
+:ET
