@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tmux"
+date:   2020-04-25 22:00:00
+categories: Linux bash
+---
+
+** Tmux 常用命令**
+```
+# 列出session
+tmux ls
+# 创建 session
+tmux new -s (session_name)
+# 进入已存在的session
+tmux a -t (session_name)
+
+```
+
