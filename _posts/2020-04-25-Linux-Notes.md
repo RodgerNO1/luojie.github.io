@@ -1,12 +1,16 @@
 ---
 layout: post
-title:  "Linux Note"
-author:Luojiecn
-date:   2020-04-25 22:00:00
+title: "Linux Note"
+categories: linux
 tags: [Linux, Command]
+author:
+  - Luojiecn
+  - Boiior
 ---
 
-**  zip文件解压缩乱码 **
+Common linux command note
+
+####  zip文件解压缩乱码
 ```
 #使用 netstat 查看
 unzip -O GBK xxx.zip
@@ -18,7 +22,7 @@ p7zip -d xxx.7z
 
 ```
 
-**  查看端口占用 **
+####  查看端口占用 
 
 ```
 #使用 netstat 查看
@@ -29,13 +33,13 @@ ss -lntpd | grep :22
 lsof -i tcp:22
 ```
 
-**  查用户登入历史**  
+####  查用户登入历史 
 
 ```
 # last 
 
 ```
-**  Ubuntu下怎么通过命令完成蓝牙的配对和连接**  
+####  Ubuntu下怎么通过命令完成蓝牙的配对和连接  
 ```shell
 # 打开蓝牙管理器
 bluetoothctl
