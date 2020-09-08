@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "Good Software"
-author:Luojiecn
-date:   2020-04-25 22:00:00
+title: "Good software"
+categories: Software
 tags: [Software]
+author:
+  - Luojiecn
 ---
 
-** Joplin：开源笔记软件-WebDAV同步 **
+好用的软件
+
+#### Joplin：开源笔记软件-WebDAV同步
 
 
