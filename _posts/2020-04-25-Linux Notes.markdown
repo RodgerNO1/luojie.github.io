@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Linux Note"
+author:Luojiecn
 date:   2020-04-25 22:00:00
-categories: Linux bash
+tags: [Linux, Command]
 ---
 
 **  zip文件解压缩乱码 **
