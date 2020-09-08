@@ -5,6 +5,18 @@ date:   2020-04-25 22:00:00
 categories: Linux bash
 ---
 
+**  zip文件解压缩乱码 **
+```
+#使用 netstat 查看
+unzip -O GBK xxx.zip
+
+# 7z 文件解压缩
+sudo apt install p7zip
+
+p7zip -d xxx.7z
+
+```
+
 **  查看端口占用 **
 
 ```
